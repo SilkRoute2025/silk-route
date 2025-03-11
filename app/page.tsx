@@ -13,25 +13,25 @@ export default function Home() {
   const collectionItems = [
     {
       id: 1,
-      defaultImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/11%2F0A4A1981-1.jpg?alt=media&token=6bb978bd-8e37-4c83-b578-ff4df6072a89",
-      hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/11%2F0A4A1984-3.jpg?alt=media&token=9596e9e0-c191-4e67-a6d8-49ea17ead155",
+      defaultImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/26%2F0A4A2307-1.jpg?alt=media&token=aa17d775-5044-49c7-bb25-fe01516e8963",
+      hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/26%2F0A4A2314-1.jpg?alt=media&token=5cc3b14a-4226-4069-aeb1-619729287159",
       name: "All",
       href: "/collection",
     },
 
     {
       id: 2,
-      defaultImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/4%2F0A4A1888-1.jpg?alt=media&token=8b92ae7e-e28f-4406-b924-b6fd7549e82d",
-      hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/4%2F0A4A1895-1.jpg?alt=media&token=b1fcd307-4ed8-4110-9b4f-c4c7d2c70fb9",
-      name: "Summer",
-      href: "/collection?tags=summer",
+      defaultImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/48%2F0A4A2248-1.png?alt=media&token=41c9a51b-d409-497d-a9a2-6667f238a0b2",
+      hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/48%2F0A4A2252-1.jpg?alt=media&token=bf264570-8019-45a8-a1c7-d426165d3c8b",
+      name: "Scarves",
+      href: "/collection?tags=scarves",
     },
     {
       id: 3,
-      defaultImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/15%2F0A4A2067-1.jpg?alt=media&token=f7bda7ea-9ca2-4f15-b841-eb6f3229fe04",
-      hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/15%2F0A4A2069-1.jpg?alt=media&token=adc90638-1262-4627-abae-ef3b2879a57a",
-      name: "Winter",
-      href: "/collection?tags=winter"
+      defaultImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/41%2F0A4A2523-1.jpg?alt=media&token=543b8bb4-0fde-45d5-a122-83acc4eea7a5",
+      hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/41%2F0A4A2521-1.jpg?alt=media&token=42ba05d2-5198-4442-9b2b-29565a0fff78",
+      name: "Garments",
+      href: "/collection?tags=garments"
     },
   ];
   const logoSources = [
@@ -188,7 +188,7 @@ export default function Home() {
             <Slide>
               <div>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWORLD%20MAP%20final.png?alt=media&token=405aa5ac-9e4a-49a9-9a4e-d3f9b9a8703e"
+                  src="https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/WORLD%20MAP%20final.png?alt=media&token=0998b102-ee84-451f-a959-8b2ba4c1a6d3"
                   alt="About"
                   className="w-full h-[600px] object-cover"
                 />

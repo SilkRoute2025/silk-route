@@ -24,21 +24,21 @@ const features: FeatureSection[] = [
     title: "Our Commitment to Excellence",
     content: "At Silkroute, our dedication to quality is unwavering. We uphold strict in-house quality control standards, ensure prompt communication, and guarantee on-time delivery, making us a trusted partner for over 20 global brands.",
     icon: <Award className="w-6 h-6 text-primary" />,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2Fpexels-cagri-besli-387362595-16651103.jpg?alt=media&token=ced6f20c-ff91-40fe-87a1-0a992688c9b6"
+    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/9%2F0A4A1953-1.jpg?alt=media&token=a8c0f6e5-6a7f-467e-8d03-44596335288c"
   },
   {
     id: 3,
     title: "A Reliable Export House Putting Customers First",
     content: "With an impressive annual export of 50,000 pieces to over 10 countries, Silkroute stands as a beacon of reliability and customer-centric service. We prioritize our clients' needs by delivering exceptional quality and prompt service, ensuring every partnership is built on trust and excellence.",
     icon: <Globe2 className="w-6 h-6 text-primary" />,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWORLD%20MAP%20final.png?alt=media&token=405aa5ac-9e4a-49a9-9a4e-d3f9b9a8703e"
+    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/WORLD%20MAP%20final.png?alt=media&token=0998b102-ee84-451f-a959-8b2ba4c1a6d3"
   },
   {
     id: 4,
     title: "Production",
     content: "Every masterpiece begins with the highest quality fabric, transformed through our meticulous production process. Our skilled artisans use a variety of techniques—from traditional handloom weaving to innovative digital printing—to craft premium scarves and garments that honor our cultural heritage while meeting modern fashion trends.",
     icon: <Factory className="w-6 h-6 text-primary" />,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FIMG-20250129-WA0021.jpg?alt=media&token=3a120750-31bb-4db3-b039-dc7ce73dcdf2"
+    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FIMG-20250310-WA0040.jpg?alt=media&token=912982b8-f8a2-4a9b-9201-765ce20188cc"
   }
 ];
 
