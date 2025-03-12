@@ -170,6 +170,26 @@ const Page = (props: Props) => {
     url: "/services/13.jpg",
     alt: "Medical camp banner",
   },
+  {
+    id: 8,
+    url: "/services/14.jpg",
+    alt: "Medical camp banner",
+  },
+  {
+    id: 9,
+    url: "/services/15.jpg",
+    alt: "Medical camp banner",
+  },
+  {
+    id: 10,
+    url: "/services/16.png",
+    alt: "Medical camp banner",
+  },
+  {
+    id: 11,
+    url: "/services/17.png",
+    alt: "Medical camp banner",
+  },
 ];
 
    const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(
