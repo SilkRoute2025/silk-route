@@ -268,7 +268,7 @@ const Product = ({ id }: Props) => {
 
           {/* Description */}
           <div>
-            <h1 className="text-3xl font-bold">Description</h1>
+            <h1 className="text-xl font-bold">Description</h1>
             <p className="pt-2 font-medium">{data.desc}</p>
           </div>
 
