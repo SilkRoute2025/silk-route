@@ -97,7 +97,7 @@ const Footer = (props: Props) => {
                   <p>Address :-</p>
                   <p>23, Kayasthapara 3rd Lane,</p>
                   <p>P.O.Haltu , Kolkata - 700078, India.</p>
-                  <p>Subroto K Das - +91 9874883393</p>
+                  <p>Subrat K Das - +91 9874883393</p>
                   <p>Office - +91 33 24840118</p>
                   <div className="mt-4">
                     <p>
