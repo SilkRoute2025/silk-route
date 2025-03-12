@@ -34,12 +34,12 @@ const csrImages: CSRImage[] = [
   },
   {
     id: 4,
-    url: "/csr/4.jpg",
+    url: "/csr/4.jpeg",
     alt: "Camp entrance",
   },
   {
     id: 5,
-    url: "/csr/5.jpg",
+    url: "/csr/5.jpeg",
     alt: "Medical camp banner",
   },
 ];
