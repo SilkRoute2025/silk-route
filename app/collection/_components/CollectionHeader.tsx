@@ -33,24 +33,24 @@ const CollectionHeader = ({ setSelectedTag, selectedTag }: Props) => {
           All
         </button>
         <button
-          onClick={() => setSelectedTag("summer")}
+          onClick={() => setSelectedTag("scarves")}
           className={`px-6 py-2 rounded-full transition-all duration-300 ${
-            selectedTag === "summer"
+            selectedTag === "scarves"
               ? "bg-black text-white"
               : "bg-gray-100 text-gray-800 hover:bg-gray-200"
           }`}
         >
-          Summer
+          Scarves
         </button>
         <button
-          onClick={() => setSelectedTag("winter")}
+          onClick={() => setSelectedTag("garments")}
           className={`px-6 py-2 rounded-full transition-all duration-300 ${
-            selectedTag === "winter"
+            selectedTag === "garments"
               ? "bg-black text-white"
               : "bg-gray-100 text-gray-800 hover:bg-gray-200"
           }`}
         >
-          Winter
+          Garments
         </button>
       </div>
     </div>

@@ -21,7 +21,7 @@ const testimonials: Testimonial[] = [
     id: 2,
     name: "Michael Chen",
     role: "Tech Entrepreneur",
-    videoUrl: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/2.mp4?alt=media&token=b29cb3c3-6d51-4371-a2ae-928c8b3b6c12"
+    videoUrl: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/2.mp4?alt=media&token=ddf224ce-5c97-40c9-b3bd-7b41695ee933"
   }
 ];
 

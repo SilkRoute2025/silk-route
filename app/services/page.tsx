@@ -101,13 +101,13 @@ const Page = (props: Props) => {
       icon: <Globe />,
       title: "Sourcing",
       desc: "We meticulously select premium raw materials, including natural fibers like wool, silk, cotton, and linen, to uphold our commitment to excellence.",
-      image: "/services/1.jpg",
+      image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/services%2FIMG_3812_(2).jpg?alt=media&token=176a7656-2362-47c1-9397-594007f61b92",
     },
     {
       icon: <HandHelping />,
       title: "Hand Skills",
       desc: "Our skilled artisans specialize in handloom weaving, intricate hand embroidery, block printing, screen printing, hand painting, digital printing, and hand tie and dye.",
-      image: "/services/2.jpg",
+      image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/services%2F2025021323130174.jpg?alt=media&token=6721c1b3-e426-4139-a1a9-ec266e7d9de0",
     },
     {
       icon: <Stamp />,
