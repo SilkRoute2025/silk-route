@@ -119,7 +119,7 @@ const Page = (props: Props) => {
       icon: <Ribbon />,
       title: "Weaving",
       desc: "Our skilled artisans meticulously weave each piece, ensuring superior texture, durability, and intricate detailing that reflect the rich textile heritage of India.",
-      image: "/services/4.jpg",
+      image: "/services/4.jpeg",
     },
     {
       icon: <Volleyball />,

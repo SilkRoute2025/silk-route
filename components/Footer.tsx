@@ -78,13 +78,13 @@ const Footer = (props: Props) => {
                 <ul className="space-y-2 text-gray-300 text-sm">
                 <li  >
                       <Link href="/collection">
-                      » Summer
+                      » Scarves
                       </Link>
                     </li>
                   
                   <li  >
                       <Link href="/collection">
-                      » Winter
+                      » Garment
                       </Link>
                     </li>
                 </ul>
@@ -97,7 +97,7 @@ const Footer = (props: Props) => {
                   <p>Address :-</p>
                   <p>23, Kayasthapara 3rd Lane,</p>
                   <p>P.O.Haltu , Kolkata - 700078, India.</p>
-                  <p>Alka Kotecha - +91 9830166652</p>
+                  <p>Subroto K Das - +91 9874883393</p>
                   <p>Office - +91 33 24840118</p>
                   <div className="mt-4">
                     <p>
