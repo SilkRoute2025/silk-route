@@ -119,7 +119,7 @@ const Page = (props: Props) => {
       icon: <Ribbon />,
       title: "Weaving",
       desc: "Our skilled artisans meticulously weave each piece, ensuring superior texture, durability, and intricate detailing that reflect the rich textile heritage of India.",
-      image: "/services/4.jpg",
+      image: "/services/4.jpeg",
     },
     {
       icon: <Volleyball />,
@@ -168,6 +168,26 @@ const Page = (props: Props) => {
   {
     id: 7,
     url: "/services/13.jpg",
+    alt: "Medical camp banner",
+  },
+  {
+    id: 8,
+    url: "/services/14.jpg",
+    alt: "Medical camp banner",
+  },
+  {
+    id: 9,
+    url: "/services/15.jpg",
+    alt: "Medical camp banner",
+  },
+  {
+    id: 10,
+    url: "/services/16.png",
+    alt: "Medical camp banner",
+  },
+  {
+    id: 11,
+    url: "/services/17.png",
     alt: "Medical camp banner",
   },
 ];
