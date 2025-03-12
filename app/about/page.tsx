@@ -14,33 +14,31 @@ interface FeatureSection {
 const features: FeatureSection[] = [
   {
     id: 1,
-    title: "About Silkroute",
-    content: "Founded in 2004 in West Bengal, India, Silkroute is a premier export house renowned for its exquisite handcrafted textiles. We expertly blend traditional craftsmanship with modern design sensibilities, specializing in handloom weaving, hand embroidery, screen printing, hand painting, block printing, digital printing, and hand tie and dye to create timeless scarves and garments.",
+    title: "About SilkRoute",
+    content: "Launched in 2004, SilkRoute is a premier export house renowned for its exquisite handcrafted textiles in the Indian state of West Bengal. We expertly blend traditional craftsmanship with modern design sensibilities, specializing in handloom weaving, hand embroidery, screen printing, hand painting, block printing, digital printing, and hand tie and dye to create timeless scarves and garments.",
     icon: <History className="w-6 h-6 text-primary" />,
     image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWhatsApp%20Image%202025-02-22%20at%2001.40.05.jpeg?alt=media&token=06290b34-f79c-4f2a-88cc-227f2811491e"
   },
   {
     id: 2,
     title: "Our Commitment to Excellence",
-    content: "At Silkroute, our dedication to quality is unwavering. We uphold strict in-house quality control standards, ensure prompt communication, and guarantee on-time delivery, making us a trusted partner for over 20 global brands.",
+    content: " At SilkRoute, our dedication to quality is unwavering. We uphold strict in-house quality control standards, ensure prompt communication, and guarantee on-time delivery. This helped us establish a trusted partnership among 20+ global brands.",
     icon: <Award className="w-6 h-6 text-primary" />,
     image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/9%2F0A4A1953-1.jpg?alt=media&token=a8c0f6e5-6a7f-467e-8d03-44596335288c"
   },
   {
     id: 3,
     title: "A Reliable Export House Putting Customers First",
-    content: "With an impressive annual export of 50,000 pieces to over 10 countries, Silkroute stands as a beacon of reliability and customer-centric service. We prioritize our clients' needs by delivering exceptional quality and prompt service, ensuring every partnership is built on trust and excellence.",
+    content: "With an impressive annual export of 100,000+ pieces to over 10 countries, SilkRoute stands as a beacon of reliability and customer-centric service. We prioritize our clients’ needs by delivering exceptional quality and prompt service, ensuring every partnership is built on trust and excellence.",
     icon: <Globe2 className="w-6 h-6 text-primary" />,
     image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/WORLD%20MAP%20final.png?alt=media&token=0998b102-ee84-451f-a959-8b2ba4c1a6d3"
   },
   {
     id: 4,
     title: "Production",
-    content: "Every masterpiece begins with the highest quality fabric, transformed through our meticulous production process. Our skilled artisans use a variety of techniques—from traditional handloom weaving to innovative digital printing—to craft premium scarves and garments that honor our cultural heritage while meeting modern fashion trends.",
+    content: " Every masterpiece begins with the highest quality fabric, transformed through our meticulous production process. Our skilled artisans use a variety of techniques—from traditional handloom weaving to innovative digital printing—to craft premium scarves and garments that honor our cultural heritage while meeting modern fashion trends.",
     icon: <Factory className="w-6 h-6 text-primary" />,
-
-    image: "/production.jpg"
-
+    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FIMG-20250310-WA0040.jpg?alt=media&token=912982b8-f8a2-4a9b-9201-765ce20188cc"
   }
 ];
 

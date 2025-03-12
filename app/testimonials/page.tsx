@@ -133,7 +133,7 @@ function page() {
           </Slide>
           <Slide delay={0.2}>
             <p className="mt-4 text-lg text-gray-600">
-            At Silkroute, customer satisfaction is at the heart of everything we do. 
+            At SilkRoute, customer satisfaction is at the heart of everything we do. 
             </p>
             </Slide>
           </div>

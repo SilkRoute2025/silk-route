@@ -183,7 +183,7 @@ function page() {
           </Slide>
           <Slide delay={0.2}>
             <p className="mt-4 text-lg text-gray-600">
-              Hear directly from our satisfied customers
+            We collaborate with top brands of the planet.
             </p>
           </Slide>
         </div>

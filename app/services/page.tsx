@@ -100,37 +100,37 @@ const Page = (props: Props) => {
     {
       icon: <Globe />,
       title: "Sourcing",
-      desc: "We meticulously select premium raw materials, including natural fibers like wool, silk, cotton, and linen, to uphold our commitment to excellence.",
+      desc: "Every masterpiece starts with ethically sourced premium fabrics. We select natural fibers like wool, silk, cotton, and linen, ensuring sustainable practices and truly responsible fashion.",
       image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/services%2FIMG_3812_(2).jpg?alt=media&token=176a7656-2362-47c1-9397-594007f61b92",
     },
     {
       icon: <HandHelping />,
       title: "Hand Skills",
-      desc: "Our skilled artisans specialize in handloom weaving, intricate hand embroidery, block printing, screen printing, hand painting, digital printing, and hand tie and dye.",
+      desc: "Our export house exemplifies masterful handcrafting merging timeless artisanal quality with modern innovation. We create intricate designs that distinguish our globally acclaimed, high-standard pieces.",
       image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/services%2F2025021323130174.jpg?alt=media&token=6721c1b3-e426-4139-a1a9-ec266e7d9de0",
     },
     {
       icon: <Stamp />,
       title: "Printing",
-      desc: "Specializing in screen printing, block printing, and digital printing, we craft intricate, high-quality designs that enhance scarves and garments with fine detailing and lasting durability.",
+      desc: "Using premium techniques that exude timeless artistry. Specializing in screen printing, block printing, digital printing, and hand painting, we design intricately detailed scarves and garments boasting vibrant colors, craftsmanship, and enduring quality.",
       image: "/services/3.jpg",
     },
     {
       icon: <Ribbon />,
       title: "Weaving",
-      desc: "Our skilled artisans meticulously weave each piece, ensuring superior texture, durability, and intricate detailing that reflect the rich textile heritage of India.",
+      desc: "We specialize in handloom weaving, a time-honored craft that transforms the finest fabrics into exquisite scarves and garments. By combining traditional weaving techniques with modern innovation, we create high-quality textiles that meet global fashion standards.",
       image: "/services/4.jpeg",
     },
     {
       icon: <Volleyball />,
       title: "Embroidery",
-      desc: "Meticulously crafted by skilled artisans, our embroidery techniques range from intricate threadwork to exquisite embellishments, adding depth, texture, and sophistication.",
+      desc: "Meticulously crafted by skilled artisans, our embroidery techniques range from intricate thread work to Katha embroidery, sequence work and machine and computer embroidery, adding depth, texture, and sophistication to every piece.",
       image: "/services/5.jpg",
     },
     {
       icon: <PaintBucket />,
       title: "Dyeing",
-      desc: " Specializing in hand tie and dye and precision color application, we transform high-quality fabrics into stunning scarves and garments that exude elegance and sustainability.",
+      desc: "Our dyeing process is a meticulous blend of traditional artistry and modern innovation. Specializing in hand tie and dye and precision color application, we transform high-quality fabrics into stunning scarves and garments that exude elegance and sustainability.",
       image: "/services/6.jpg",
     },
   ]
@@ -170,26 +170,6 @@ const Page = (props: Props) => {
     url: "/services/13.jpg",
     alt: "Medical camp banner",
   },
-  {
-    id: 8,
-    url: "/services/14.jpg",
-    alt: "Medical camp banner",
-  },
-  {
-    id: 9,
-    url: "/services/15.jpg",
-    alt: "Medical camp banner",
-  },
-  {
-    id: 10,
-    url: "/services/16.png",
-    alt: "Medical camp banner",
-  },
-  {
-    id: 11,
-    url: "/services/17.png",
-    alt: "Medical camp banner",
-  },
 ];
 
    const [selectedImageIndex, setSelectedImageIndex] = useState<number | null>(
@@ -222,7 +202,7 @@ const Page = (props: Props) => {
             <h1 className="text-4xl font-bold text-gray-900 sm:text-4xl">Our Services</h1>
             </Slide>
             <Slide delay={0.2}>
-            <p className="mt-4 text-lg text-gray-600">Our skilled artisans ensure every piece reflects our rich cultural heritage and commitment to excellence through rigorous quality control and meticulous attention to detail</p>
+            <p className="mt-4 text-lg text-gray-600">Experience the beauty of handcrafted textiles with SilkRoute—where tradition meets innovation.</p>
             </Slide>
           </div>
           <div className="absolute inset-0 max-w-xs mx-auto h-44 blur-[118px]"></div>

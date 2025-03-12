@@ -73,9 +73,9 @@ export default function Home() {
       </AnimatePresence>
       <section className="h-screen relative overflow-hidden">
         <img
-          src="/WB EDITED 1.png"
+          src="/123.png"
           alt="Hero"
-          className="absolute hidden md:block inset-0 w-full max-h-fit object-cover"
+          className="absolute hidden md:block inset-0 w-full h-full object-cover"
         />
         <img
           src="/911.jpg"
@@ -103,7 +103,7 @@ export default function Home() {
         <div className="absolute inset-0 flex items-center justify-center text-white">
           <div className="text-center">
             <h1 className="text-5xl md:text-7xl font-light tracking-wider mb-6">
-              SILK ROUTE
+              SILKROUTE
             </h1>
             <p className="text-xl md:text-2xl tracking-wide mb-8">
               Elegance in Every Thread
@@ -122,7 +122,7 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <Slide>
           <h2 className="text-3xl font-light text-center mb-16">
-            Latest Collection
+            Our Collection
           </h2>
         </Slide>
         <Slide>
@@ -172,11 +172,8 @@ export default function Home() {
               </Slide>
               <Slide>
                 <p className="mb-8">
-                  Founded on the principles of quality and sustainability, Silk
-                  Route brings together traditional craftsmanship with modern
-                  design sensibilities. Our journey began with a simple idea: to
-                  create timeless pieces that celebrate the art of textile
-                  making.
+                Established in 2004 in the culturally rich region of West Bengal, India, SilkRoute has grown into a leading export house renowned for its commitment to quality and sustainability. Over the years,we have blended time-honored craftsmanship seamlessly with contemporary design to create textile masterpieces that stood the test of time. Our vision was simple: to honor the legacy of traditional textile art with innovation for sustainable growth. Each piece we craft reflects our passion for excellence and our deep-rooted respect for the art of textile making.
+
                 </p>
               </Slide>
               <Link href="/about" passHref>
