@@ -157,11 +157,9 @@ export const collections = [
     id: 15,
     name: "246065",
     price: 449,
-
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/15%2F0A4A2069-1.jpg?alt=media&token=adc90638-1262-4627-abae-ef3b2879a57a",
-    hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/15%2F0A4A2067-1.jpg?alt=media&token=f7bda7ea-9ca2-4f15-b841-eb6f3229fe04",
+    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/15%2F0A4A2067-1.jpg?alt=media&token=f7bda7ea-9ca2-4f15-b841-eb6f3229fe04",
+    hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/15%2F0A4A2069-1.jpg?alt=media&token=adc90638-1262-4627-abae-ef3b2879a57a",
     tag: "scarves",
-
     desc: "Turquoise pure silk scarf showcasing intricate embroidery. A refined blend of timeless craftsmanship and modern elegance, perfect for complementing any ensemble."
   },
   {
@@ -477,4 +475,3 @@ export const collections = [
     desc: "Modal silk blend scarf adorned with a yellow and blue floral pattern. A perfect balance of softness and vibrant design, crafted for effortless elegance.",
   }
 ];
-
