@@ -109,35 +109,27 @@ const Product = ({ id }: Props) => {
     setZoomLevel(1);
   };
 
-  const openZoomDialog = () => {
-    setIsDialogOpen(true);
-  };
-
   return (
     <div className="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="flex flex-col md:flex-row md:justify-center md:items-start items-center gap-20">
         <div className="relative md:w-96 h-full rounded-md">
           {/* Image Slider */}
           <div className="relative group">
-            {/* Main Image and Dialog */}
-            <div className="relative rounded-md overflow-hidden cursor-pointer">
-              <Image
-                width={500}
-                height={500}
-                src={images[currentImageIndex]}
-                alt={data.name}
-                className="w-full h-[500px] object-cover rounded-md"
-              />
-              <button
-                className="absolute right-2 top-2 z-10 "
-                onClick={openZoomDialog}
-              >
-                <ZoomIn className="h-6 w-6" />
-              </button>
-            </div>
+            {/* Main Image with Dialog trigger */}
+            <Dialog>
+              <DialogTrigger asChild>
+                <div className="relative rounded-md overflow-hidden cursor-pointer">
+                  <Image
+                    width={500}
+                    height={500}
+                    src={images[currentImageIndex]}
+                    alt={data.name}
+                    className="w-full h-[500px] object-cover rounded-md"
+                  />
+                </div>
+              </DialogTrigger>
 
-            {/* Zoom Dialog */}
-            <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+              {/* Zoom Dialog Content */}
               <DialogContent className="sm:max-w-3xl max-h-screen overflow-hidden mt-10">
                 <div className="relative flex flex-col items-center">
                   <div
@@ -195,11 +187,11 @@ const Product = ({ id }: Props) => {
             </Dialog>
 
             {/* Slider Navigation */}
-            <div className="absolute inset-0 flex items-center justify-between opacity-0 group-hover:opacity-100 transition-opacity">
+            <div className="absolute inset-0 flex items-center justify-between opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none">
               <Button
                 variant="ghost"
                 size="icon"
-                className="h-10 w-10 rounded-full bg-white/50 backdrop-blur-sm ml-2"
+                className="h-10 w-10 rounded-full bg-white/50 backdrop-blur-sm ml-2 pointer-events-auto"
                 onClick={(e) => {
                   e.stopPropagation();
                   prevImage();
@@ -210,7 +202,7 @@ const Product = ({ id }: Props) => {
               <Button
                 variant="ghost"
                 size="icon"
-                className="h-10 w-10 rounded-full bg-white/50 backdrop-blur-sm mr-2"
+                className="h-10 w-10 rounded-full bg-white/50 backdrop-blur-sm mr-2 pointer-events-auto"
                 onClick={(e) => {
                   e.stopPropagation();
                   nextImage();
@@ -221,11 +213,11 @@ const Product = ({ id }: Props) => {
             </div>
 
             {/* Dots indicators */}
-            <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2">
+            <div className="absolute bottom-4 left-0 right-0 flex justify-center gap-2 pointer-events-none">
               {images.map((_, index) => (
                 <button
                   key={index}
-                  className={`w-2 h-2 rounded-full transition-all ${
+                  className={`w-2 h-2 rounded-full transition-all pointer-events-auto ${
                     currentImageIndex === index ? "bg-white w-4" : "bg-white/50"
                   }`}
                   onClick={(e) => {
@@ -273,7 +265,12 @@ const Product = ({ id }: Props) => {
               />
             </div>
           </div>
-          <AccordionExample description={data.desc} />
+
+          {/* Description */}
+          <div>
+            <h1 className="text-3xl font-bold">Description</h1>
+            <p className="pt-2 font-medium">{data.desc}</p>
+          </div>
 
           <Link href="/contact">
             <button className="text-white bg-[#1e1d25] hover:bg-[#3a3941] py-4 uppercase font-bold rounded-md w-full">
