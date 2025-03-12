@@ -41,7 +41,7 @@ const Banner = () => {
           onChange={(e) => setText(e.target.value)}
           className="w-full p-2 border border-gray-300 rounded"
         />
-        <Link href={`https://wa.me/+919830166652?text=${text}`} target="_blank">
+        <Link href={`https://wa.me/+919874883393?text=${text}`} target="_blank">
           <button className="bg-green-500 text-white p-2 rounded ml-2">
             <Send />
           </button>
