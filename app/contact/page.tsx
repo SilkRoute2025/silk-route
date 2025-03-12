@@ -49,7 +49,7 @@ export default function ContactPage() {
                 </h2>
               </div>
               <div className="space-y-2 text-lg text-gray-600">
-                <p>Subroto K Das - +91 9874883393</p>
+                <p>Subrat K Das - +91 9874883393</p>
                 <p>Office - +91 33 24840118</p>
               </div>
               </Slide>
