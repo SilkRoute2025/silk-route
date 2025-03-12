@@ -38,7 +38,9 @@ const features: FeatureSection[] = [
     title: "Production",
     content: "Every masterpiece begins with the highest quality fabric, transformed through our meticulous production process. Our skilled artisans use a variety of techniques—from traditional handloom weaving to innovative digital printing—to craft premium scarves and garments that honor our cultural heritage while meeting modern fashion trends.",
     icon: <Factory className="w-6 h-6 text-primary" />,
+
     image: "/production.jpg"
+
   }
 ];
 
