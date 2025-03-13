@@ -73,9 +73,9 @@ export default function Home() {
       </AnimatePresence>
       <section className="h-screen relative overflow-hidden">
         <img
-          src="/123.png"
+          src="/786.png"
           alt="Hero"
-          className="absolute hidden md:block inset-0 w-full h-full object-cover"
+          className="absolute hidden md:block inset-0 w-full h-fit object-fill"
         />
         <img
           src="/911.jpg"
