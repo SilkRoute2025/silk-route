@@ -63,7 +63,7 @@ const partners: Record<string, Partner[]> = {
     {
       id: 17,
       name: "Balmain",
-      logoUrl: "/logo/17.png",
+      logoUrl: "/logo/17.jpeg",
       country: "France",
     },
 
