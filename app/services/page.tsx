@@ -101,7 +101,7 @@ const Page = (props: Props) => {
       icon: <Globe />,
       title: "Sourcing",
       desc: "Every masterpiece starts with ethically sourced premium fabrics. We select natural fibers like wool, silk, cotton, and linen, ensuring sustainable practices and truly responsible fashion.",
-      image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/services%2FIMG_3812_(2).jpg?alt=media&token=176a7656-2362-47c1-9397-594007f61b92",
+      image: "/services/1.jpeg",
     },
     {
       icon: <HandHelping />,
@@ -137,27 +137,27 @@ const Page = (props: Props) => {
 
   const factory = [{
     id: 1,
-    url: "/services/7.jpg",
+    url: "/services/7.jpeg",
     alt: "Medical camp registration",
   },
   {
     id: 2,
-    url: "/services/8.jpg",
+    url: "/services/8.jpeg",
     alt: "People waiting in line",
   },
   {
     id: 3,
-    url: "/services/9.jpg",
+    url: "/services/9.jpeg",
     alt: "Doctor consultation",
   },
   {
     id: 4,
-    url: "/services/10.jpg",
+    url: "/services/10.jpeg",
     alt: "Camp entrance",
   },
   {
     id: 5,
-    url: "/services/11.jpg",
+    url: "/services/11.jpeg",
     alt: "Medical camp banner",
   },
   {
