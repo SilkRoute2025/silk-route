@@ -21,43 +21,43 @@ const partners: Record<string, Partner[]> = {
     {
       id: 2,
       name: "Kookai",
-      logoUrl: "/logo/2.svg",
+      logoUrl: "/logo/2.png",
       country: "France",
     },
     {
       id: 3,
       name: "Printemps",
-      logoUrl: "/logo/3.svg",
+      logoUrl: "/logo/3.png",
       country: "France",
     },
     {
       id: 4,
       name: "Balmain",
-      logoUrl: "/logo/4.svg",
+      logoUrl: "/logo/4.png",
       country: "France",
     },
     {
       id: 5,
       name: "Sandro",
-      logoUrl: "/logo/5.svg",
+      logoUrl: "/logo/5.png",
       country: "France",
     },
     {
       id: 6,
       name: "Kookai",
-      logoUrl: "/logo/6.svg",
+      logoUrl: "/logo/6.png",
       country: "France",
     },
     {
       id: 7,
       name: "Printemps",
-      logoUrl: "/logo/7.svg",
+      logoUrl: "/logo/7.png",
       country: "France",
     },
     {
       id: 8,
       name: "Balmain",
-      logoUrl: "/logo/8.svg",
+      logoUrl: "/logo/8.png",
       country: "France",
     },
     {
@@ -78,7 +78,7 @@ const partners: Record<string, Partner[]> = {
     {
       id: 10,
       name: "Libertine",
-      logoUrl: "/logo/10.svg",
+      logoUrl: "/logo/10.png",
       country: "United States",
     },
   ],
@@ -86,7 +86,7 @@ const partners: Record<string, Partner[]> = {
     {
       id: 11,
       name: "Zara",
-      logoUrl: "/logo/11.avif",
+      logoUrl: "/logo/11.png",
       country: "Spain",
     },
     {
@@ -120,7 +120,7 @@ const partners: Record<string, Partner[]> = {
   ],
   Belgium: [
     {
-      id: 15,
+      id: 16,
       name: "Zara",
       logoUrl: "/logo/16.webp",
       country: "Spain",
@@ -131,7 +131,7 @@ const partners: Record<string, Partner[]> = {
 function PartnerCard({ partner }: { partner: Partner }) {
   return (
     <div className="group bg-white p-4 rounded-lg shadow-sm hover:shadow-md transition-all duration-300">
-      <div className="w-full aspect-[3/2] relative overflow-hidden">
+      <div className="w-full flex justify-center items-center aspect-[3/2] relative overflow-hidden">
         <Slide delay={0.4}>
           <img
             src={partner.logoUrl}
