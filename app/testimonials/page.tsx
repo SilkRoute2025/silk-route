@@ -29,15 +29,15 @@ const testimonials: Testimonial[] = [
 const certificates = [
   {
     id: 1,
-    src: './EPCH.png',
+    src: './EPCH-1.jpg',
   },
   {
     id: 2,
-    src: './AEPC.jpg',
+    src: './AEPC-1.jpg',
   },
   {
     id: 3,
-    src: './FIEO.jpg',
+    src: './FIEO-1.jpg',
   },
 ]
 interface VideoModalProps {
