@@ -51,7 +51,7 @@ export default function Home() {
     "/logo/14.png",
     "/logo/15.png",
     "/logo/16.webp",
-    "/logo/17.png"
+    "/logo/17.jpeg",
   ];
   const [isLoading, setIsLoading] = useState(true);
 
