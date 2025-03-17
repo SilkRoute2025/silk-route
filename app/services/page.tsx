@@ -101,19 +101,19 @@ const Page = (props: Props) => {
       icon: <Globe />,
       title: "Sourcing",
       desc: "Every masterpiece starts with ethically sourced premium fabrics. We select natural fibers like wool, silk, cotton, and linen, ensuring sustainable practices and truly responsible fashion.",
-      image: "/services/1.jpeg",
+      image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWhatsApp%20Image%202025-03-17%20at%2013.18.18.jpeg?alt=media&token=9fcbc020-bd77-4ab0-b7e5-c0aa29795d8a",
     },
     {
       icon: <HandHelping />,
       title: "Hand Skills",
       desc: "Our export house exemplifies masterful handcrafting merging timeless artisanal quality with modern innovation. We create intricate designs that distinguish our globally acclaimed, high-standard pieces.",
-      image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/services%2F2025021323130174.jpg?alt=media&token=6721c1b3-e426-4139-a1a9-ec266e7d9de0",
+      image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWhatsApp%20Image%202025-03-17%20at%2013.17.21.jpeg?alt=media&token=26df9516-567c-40c1-bef0-810202f570b0",
     },
     {
       icon: <Stamp />,
       title: "Printing",
       desc: "Using premium techniques that exude timeless artistry. Specializing in screen printing, block printing, digital printing, and hand painting, we design intricately detailed scarves and garments boasting vibrant colors, craftsmanship, and enduring quality.",
-      image: "/services/3.jpg",
+      image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWhatsApp%20Image%202025-03-17%20at%2013.17.50.jpeg?alt=media&token=dd7726d0-5d2d-4a24-8b73-fe37b5a37229",
     },
     {
       icon: <Ribbon />,

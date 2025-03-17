@@ -31,7 +31,7 @@ export const collections = [
     id: 1,
     name: "245018",
     price: 299,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/1%2F0A4A1822-1.jpg?alt=media&token=1ed8617e-845e-4996-8e69-1d18fb3980a8",
+    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/1%2F0A4A1822-1.png?alt=media&token=c8fdf299-5097-40e3-a869-fdc112c4cf59",
     hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/1%2F0A4A1826-1.jpg?alt=media&token=69fcd6fc-ab9b-454f-8930-a4350b87e1d9",
     tag: "scarves",
     desc: "Petrol pure wool scarf featuring a classic check pattern. A timeless blend of warmth and style, crafted for effortless sophistication."
@@ -40,7 +40,7 @@ export const collections = [
     id: 2,
     name: "245019",
     price: 349,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/2%2F0A4A1849-1.jpg?alt=media&token=f06fa10e-e0db-4e40-a35c-32ddd46fc457",
+    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/2%2F0A4A1849-1.png?alt=media&token=8e556278-27b8-4c69-8093-c25cc20f3610",
     hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/2%2F0A4A1860-1.jpg?alt=media&token=34ff01b7-4cc7-4b34-80de-783aa7b622fe",
     tag: "scarves",
     desc: "Deep teal pure wool scarf crafted for effortless warmth and elegance. A timeless accessory that blends softness and sophistication for any occasion."
@@ -58,7 +58,7 @@ export const collections = [
     id: 4,
     name: "241098",
     price: 799,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/4%2F0A4A1888-1.jpg?alt=media&token=8b92ae7e-e28f-4406-b924-b6fd7549e82d",
+    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/4%2F0A4A1888-1.png?alt=media&token=43f8fd50-314d-4741-9e40-0375ba92e34b",
     hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/4%2F0A4A1895-1.jpg?alt=media&token=b1fcd307-4ed8-4110-9b4f-c4c7d2c70fb9",
     tag: "scarves",
     desc: "Black and beige habutai silk scarf adorned with an asymmetric print. A lightweight and versatile accessory that effortlessly blends elegance with contemporary charm."
@@ -67,7 +67,7 @@ export const collections = [
     id: 5,
     name: "236111",
     price: 449,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/5%2F0A4A1898-1.jpg?alt=media&token=8b77f6d5-679c-48b3-8a86-091fc450571b",
+    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/5%2F0A4A1898-1.png?alt=media&token=468bf8db-5474-493a-8490-115b572cfbc3",
     hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/5%2F0A4A1967-1.jpg?alt=media&token=e8962c2e-f102-470e-a79b-1a4d47ee7d05",
     tag: "scarves",
     desc: "Petrol coloured pure wool scarf featuring a detailed white thread weaving pattern. A seamless blend of traditional craftsmanship and modern design, this accessory adds a refined touch to any look."
