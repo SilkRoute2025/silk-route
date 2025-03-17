@@ -333,7 +333,7 @@ export const collections = [
   },
   {
     id: 35,
-    name: "24042K",
+    name: "24042",
     price: 449,
     image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/35%2F0A4A2431-1.jpg?alt=media&token=deb7d132-3f6f-4101-8859-032c40e43899",
     hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/35%2F0A4A2439-1.jpg?alt=media&token=b0c62cab-d0e8-4666-9c54-d12c65d1feb7",
@@ -369,7 +369,7 @@ export const collections = [
   },
   {
     id: 39,
-    name: "G-25026D",
+    name: "25026",
     price: 549,
     image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/39%2F0A4A2481-1.jpg?alt=media&token=7eca94de-e395-4e81-bb5d-27aad03b1a23",
     hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/39%2F0A4A2499-1.jpg?alt=media&token=97034fb7-f75d-4842-a255-8a09ccb2f048",
@@ -386,7 +386,7 @@ export const collections = [
     desc: "Black cotton dress featuring a marble floral print in yellow and white. A seamless blend of traditional material and modern design that offers an artistic look."
   },{
     id: 41,
-    name: "Top-2109 Skirt-4013",
+    name: "2109 ",
     price: 299,
     image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/41%2F0A4A2521-1.jpg?alt=media&token=42ba05d2-5198-4442-9b2b-29565a0fff78",
     hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/41%2F0A4A2523-1.jpg?alt=media&token=543b8bb4-0fde-45d5-a122-83acc4eea7a5",
@@ -404,7 +404,7 @@ export const collections = [
   },
   {
     id: 43,
-    name: "24065D",
+    name: "24065",
     price: 599,
     image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/43%2F0A4A2591-1.jpg?alt=media&token=15960778-c4c5-494e-8a13-371c60a7c457",
     hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/43%2F0A4A2592-1.jpg?alt=media&token=db824ba9-1ccd-4bce-9563-e012ac3a9b01",
@@ -413,7 +413,7 @@ export const collections = [
   },
   {
     id: 44,
-    name: "g241185H",
+    name: "241185",
     price: 799,
     image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/44%2F0A4A2442-1.jpg?alt=media&token=1ba726bc-1ef7-431d-ac03-2b9c7b33c0f1",
     hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/44%2F0A4A2450-1.jpg?alt=media&token=5a21636e-9aff-45fb-a14a-7d103bab3a3e",
