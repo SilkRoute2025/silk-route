@@ -17,14 +17,14 @@ const features: FeatureSection[] = [
     title: "About SilkRoute",
     content: "Launched in 2004, SilkRoute is a premier export house renowned for its exquisite handcrafted textiles in the Indian state of West Bengal. We expertly blend traditional craftsmanship with modern design sensibilities, specializing in handloom weaving, hand embroidery, screen printing, hand painting, block printing, digital printing, and hand tie and dye to create timeless scarves and garments.",
     icon: <History className="w-6 h-6 text-primary" />,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWhatsApp%20Image%202025-02-22%20at%2001.40.05.jpeg?alt=media&token=06290b34-f79c-4f2a-88cc-227f2811491e"
+    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWhatsApp%20Image%202025-03-17%20at%2013.12.34.jpeg?alt=media&token=363c725b-2715-4558-9d23-e4ae5b904374"
   },
   {
     id: 2,
     title: "Our Commitment to Excellence",
     content: " At SilkRoute, our dedication to quality is unwavering. We uphold strict in-house quality control standards, ensure prompt communication, and guarantee on-time delivery. This helped us establish a trusted partnership among 20+ global brands.",
     icon: <Award className="w-6 h-6 text-primary" />,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/9%2F0A4A1953-1.jpg?alt=media&token=a8c0f6e5-6a7f-467e-8d03-44596335288c"
+    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FCommitment%20to%20Excellence.jpg?alt=media&token=e30a456b-3f23-4bac-9bbc-553d18e3868f"
   },
   {
     id: 3,
