@@ -26,20 +26,22 @@ const testimonials: Testimonial[] = [
       "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/2.mp4?alt=media&token=ddf224ce-5c97-40c9-b3bd-7b41695ee933",
   },
 ];
+
 const certificates = [
   {
     id: 1,
-    src: './EPCH-1.jpg',
+    src: "./EPCH-1.jpg",
   },
   {
     id: 2,
-    src: './AEPC-1.jpg',
+    src: "./AEPC-1.jpg",
   },
   {
     id: 3,
-    src: './FIEO-1.jpg',
+    src: "./FIEO-1.jpeg",
   },
-]
+];
+
 interface VideoModalProps {
   video: Testimonial | null;
   onClose: () => void;
@@ -73,27 +75,18 @@ function VideoModal({ video, onClose }: VideoModalProps) {
             playsInline
           />
         </div>
-        {/* <div className="mt-4 text-center">
-          <h3 className="text-xl font-semibold text-white">{video.name}</h3>
-          <p className="text-gray-300">{video.role}</p>
-        </div> */}
       </div>
     </div>
   );
 }
 
 function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
-  const [isHovered, setIsHovered] = useState(false);
   const [hasError, setHasError] = useState(false);
 
   return (
     <Slide delay={0.3}>
       <div className="relative flex flex-col items-center">
-        <div
-          className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-xl transition-transform duration-300 hover:scale-105 cursor-pointer"
-          onMouseEnter={() => setIsHovered(true)}
-          onMouseLeave={() => setIsHovered(false)}
-        >
+        <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-xl cursor-pointer">
           {!hasError ? (
             <video
               src={testimonial.videoUrl}
@@ -102,38 +95,22 @@ function TestimonialCard({ testimonial }: { testimonial: Testimonial }) {
               playsInline
               preload="metadata"
               onError={() => setHasError(true)}
-              ref={(video) => {
-                if (video) {
-                  if (isHovered) {
-                    video.play().catch(() => setHasError(true));
-                  } else {
-                    video.pause();
-                    video.currentTime = 0;
-                  }
-                }
-              }}
             />
           ) : (
             <div className="w-full h-full bg-gray-200 flex items-center justify-center">
               <p className="text-gray-600">Video unavailable</p>
             </div>
           )}
-          {!isHovered && !hasError && (
-            <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
-              <Quote className="w-12 h-12 text-white opacity-80" />
-            </div>
-          )}
+          <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
+            <Quote className="w-12 h-12 text-white opacity-80" />
+          </div>
         </div>
-        {/* <div className="mt-4 text-center">
-        <h3 className="text-lg font-semibold text-gray-900">{testimonial.name}</h3>
-        <p className="text-sm text-gray-600">{testimonial.role}</p>
-      </div> */}
       </div>
     </Slide>
   );
 }
 
-function page() {
+function Page() {
   const [selectedVideo, setSelectedVideo] = useState<Testimonial | null>(null);
 
   return (
@@ -168,16 +145,16 @@ function page() {
             ))}
           </div>
           <div className="text-center mt-16 mb-16">
-          <Slide>
-            <h1 className="text-3xl font-bold text-gray-900 mb-16 sm:text-4xl">
-              Certificate
-            </h1>
-          </Slide>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16">
-            {certificates.map((cert)=> (
-              <img key={cert.id} src={cert.src} alt="balls" />
-            ))}
-          </div>
+            <Slide>
+              <h1 className="text-3xl font-bold text-gray-900 mb-16 sm:text-4xl">
+                Certifications
+              </h1>
+            </Slide>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16">
+              {certificates.map((cert) => (
+                <img key={cert.id} src={cert.src} alt="Certificate" />
+              ))}
+            </div>
           </div>
         </div>
       </div>
@@ -190,4 +167,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
