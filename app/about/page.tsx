@@ -24,7 +24,7 @@ const features: FeatureSection[] = [
     title: "Our Commitment to Excellence",
     content: " At SilkRoute, our dedication to quality is unwavering. We uphold strict in-house quality control standards, ensure prompt communication, and guarantee on-time delivery. This helped us establish a trusted partnership among 20+ global brands.",
     icon: <Award className="w-6 h-6 text-primary" />,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FCommitment%20to%20Excellence.jpg?alt=media&token=e30a456b-3f23-4bac-9bbc-553d18e3868f"
+    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWhatsApp%20Image%202025-03-17%20at%2014.30.11.jpeg?alt=media&token=73d8389b-935d-4e58-b2a7-17570b833a1b"
   },
   {
     id: 3,
