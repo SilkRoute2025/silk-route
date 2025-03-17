@@ -84,7 +84,7 @@ const Footer = (props: Props) => {
                   
                   <li  >
                       <Link href="/collection">
-                      » Garment
+                      » Garments
                       </Link>
                     </li>
                 </ul>

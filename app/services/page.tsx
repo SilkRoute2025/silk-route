@@ -113,7 +113,7 @@ const Page = (props: Props) => {
       icon: <Stamp />,
       title: "Printing",
       desc: "Using premium techniques that exude timeless artistry. Specializing in screen printing, block printing, digital printing, and hand painting, we design intricately detailed scarves and garments boasting vibrant colors, craftsmanship, and enduring quality.",
-      image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWhatsApp%20Image%202025-03-17%20at%2013.17.50.jpeg?alt=media&token=dd7726d0-5d2d-4a24-8b73-fe37b5a37229",
+      image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWhatsApp%20Image%202025-03-17%20at%2014.29.01.jpeg?alt=media&token=3b464569-2181-409a-b81f-aba5a98242bb",
     },
     {
       icon: <Ribbon />,
