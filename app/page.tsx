@@ -36,21 +36,22 @@ export default function Home() {
   ];
   const logoSources = [
     "/logo/1.png",
-    "/logo/2.svg",
-    "/logo/3.svg",
-    "/logo/4.svg",
-    "/logo/5.svg",
-    "/logo/6.svg",
-    "/logo/7.svg",
-    "/logo/8.svg",
+    "/logo/2.png",
+    "/logo/3.png",
+    "/logo/4.png",
+    "/logo/5.png",
+    "/logo/6.png",
+    "/logo/7.png",
+    "/logo/8.png",
     "/logo/9.png",
-    "/logo/10.svg",
-    "/logo/11.avif",
+    "/logo/10.png",
+    "/logo/11.png",
     "/logo/12.png",
     "/logo/13.png",
     "/logo/14.png",
     "/logo/15.png",
     "/logo/16.webp",
+    "/logo/17.png"
   ];
   const [isLoading, setIsLoading] = useState(true);
 
