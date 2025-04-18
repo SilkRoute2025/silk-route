@@ -41,7 +41,7 @@ const ProductCard = ({ item }: { item: CollectionType }) => {
           {/* Main image */}
           {inView && (
             <Image
-              src={item.image}
+              src={`/collections/${item.id}/1.jpg`}
               alt={item.name}
               fill
               sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"
@@ -57,7 +57,7 @@ const ProductCard = ({ item }: { item: CollectionType }) => {
           {/* Hover image */}
           {inView && (
             <Image
-              src={item.hoverImage}
+              src={`/collections/${item.id}/2.jpg`}
               alt={`${item.name} Alternate View`}
               fill
               sizes="(min-width: 1024px) 33vw, (min-width: 768px) 50vw, 100vw"

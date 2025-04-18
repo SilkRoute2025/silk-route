@@ -37,7 +37,7 @@ const Product = ({ id }: Props) => {
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
   // Assuming you have these images in your CollectionType
-  const images = data ? [data.image, data.hoverImage] : [];
+  const images = data ? [`/collections/${id}/1.jpg`, `/collections/${id}/2.jpg`] : [];
 
   useEffect(() => {
     if (id) {
