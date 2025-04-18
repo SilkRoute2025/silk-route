@@ -16,14 +16,14 @@ const testimonials: Testimonial[] = [
     name: "Sarah Johnson",
     role: "Marketing Director",
     videoUrl:
-      "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/1.mp4?alt=media&token=edede8e3-bb1a-4e7e-9709-7087bb5591d5",
+      "/test1.mp4",
   },
   {
     id: 2,
     name: "Michael Chen",
     role: "Tech Entrepreneur",
     videoUrl:
-      "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/2.mp4?alt=media&token=ddf224ce-5c97-40c9-b3bd-7b41695ee933",
+      "/test2.mp4",
   },
 ];
 
