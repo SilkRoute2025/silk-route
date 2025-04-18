@@ -13,23 +13,23 @@ export default function Home() {
   const collectionItems = [
     {
       id: 1,
-      defaultImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/26%2F0A4A2307-1.jpg?alt=media&token=aa17d775-5044-49c7-bb25-fe01516e8963",
-      hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/26%2F0A4A2314-1.jpg?alt=media&token=5cc3b14a-4226-4069-aeb1-619729287159",
+      defaultImage: "/collections/26/1.jpg",
+      hoverImage: "/collections/26/2.jpg",
       name: "All",
       href: "/collection",
     },
 
     {
       id: 2,
-      defaultImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/48%2F0A4A2248-1.png?alt=media&token=41c9a51b-d409-497d-a9a2-6667f238a0b2",
-      hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/48%2F0A4A2252-1.jpg?alt=media&token=bf264570-8019-45a8-a1c7-d426165d3c8b",
+      defaultImage: "/collections/48/1.jpg",
+      hoverImage: "/collections/48/2.jpg",
       name: "Scarves",
       href: "/collection?tags=scarves",
     },
     {
       id: 3,
-      defaultImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/41%2F0A4A2523-1.jpg?alt=media&token=543b8bb4-0fde-45d5-a122-83acc4eea7a5",
-      hoverImage: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/41%2F0A4A2521-1.jpg?alt=media&token=42ba05d2-5198-4442-9b2b-29565a0fff78",
+      defaultImage: "/collections/41/1.jpg",
+      hoverImage: "/collections/41/2.jpg",
       name: "Garments",
       href: "/collection?tags=garments"
     },
@@ -186,7 +186,7 @@ export default function Home() {
             <Slide>
               <div>
                 <img
-                  src="https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/WORLD%20MAP%20final.png?alt=media&token=0998b102-ee84-451f-a959-8b2ba4c1a6d3"
+                  src="/map.jpg"
                   alt="About"
                   className="w-full h-[600px] object-cover"
                 />

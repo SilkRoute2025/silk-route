@@ -17,28 +17,28 @@ const features: FeatureSection[] = [
     title: "About SilkRoute",
     content: "Launched in 2004, SilkRoute is a premier export house renowned for its exquisite handcrafted textiles in the Indian state of West Bengal. We expertly blend traditional craftsmanship with modern design sensibilities, specializing in handloom weaving, hand embroidery, screen printing, hand painting, block printing, digital printing, and hand tie and dye to create timeless scarves and garments.",
     icon: <History className="w-6 h-6 text-primary" />,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWhatsApp%20Image%202025-03-17%20at%2013.12.34.jpeg?alt=media&token=363c725b-2715-4558-9d23-e4ae5b904374"
+    image: "/abtsr.jpg"
   },
   {
     id: 2,
     title: "Our Commitment to Excellence",
     content: " At SilkRoute, our dedication to quality is unwavering. We uphold strict in-house quality control standards, ensure prompt communication, and guarantee on-time delivery. This helped us establish a trusted partnership among 20+ global brands.",
     icon: <Award className="w-6 h-6 text-primary" />,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FWhatsApp%20Image%202025-03-17%20at%2014.30.11.jpeg?alt=media&token=73d8389b-935d-4e58-b2a7-17570b833a1b"
+    image: "/excellence.jpg"
   },
   {
     id: 3,
     title: "A Reliable Export House Putting Customers First",
     content: "With an impressive annual export of 100,000+ pieces to over 10 countries, SilkRoute stands as a beacon of reliability and customer-centric service. We prioritize our clients’ needs by delivering exceptional quality and prompt service, ensuring every partnership is built on trust and excellence.",
     icon: <Globe2 className="w-6 h-6 text-primary" />,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/WORLD%20MAP%20final.png?alt=media&token=0998b102-ee84-451f-a959-8b2ba4c1a6d3"
+    image: "/map.jpg"
   },
   {
     id: 4,
     title: "Production",
     content: " Every masterpiece begins with the highest quality fabric, transformed through our meticulous production process. Our skilled artisans use a variety of techniques—from traditional handloom weaving to innovative digital printing—to craft premium scarves and garments that honor our cultural heritage while meeting modern fashion trends.",
     icon: <Factory className="w-6 h-6 text-primary" />,
-    image: "https://firebasestorage.googleapis.com/v0/b/silk-route-9f98d.firebasestorage.app/o/about%2FIMG-20250310-WA0040.jpg?alt=media&token=912982b8-f8a2-4a9b-9201-765ce20188cc"
+    image: "/prod.jpg"
   }
 ];
 
